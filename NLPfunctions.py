@@ -53,6 +53,7 @@ def process_document(document, i, list_of_codes, stop_words):
     text = text.replace(".", " ")
     text = text.lower()
     text = re.sub(r'_*', '', text)
+    text = re.sub(r'-(?!\w)|(?<!\w)-', '', text)
 
     # get file name
     file_name = i
@@ -181,7 +182,7 @@ def output_graph_combinedfreqprop(word, corpus, folder_images, word_percentage_d
     # plt.plot(x_axis, y_axis2, marker='x')
     # plt.plot(x_axis, ref_line, 'k-', lw=1,dashes=[2, 2], label = "Average Percentage")
     plot_3 = ax2.plot(x_axis, ref_line, 'k-', lw=1, dashes=[2, 2], label="Relative Frequency for Entire Corpus")
-    title = "Useage of the word " + "'" + word + "' in each story over time"
+    title = "Usage of the word " + "'" + word + "' in each story over time"
     plt.title(title)
 
     lns = plot_1 + plot_2 + plot_3
@@ -194,3 +195,77 @@ def output_graph_combinedfreqprop(word, corpus, folder_images, word_percentage_d
     print(word + " frequency chart exported")
     plt.close()
 
+def synonym_analysis(df, folder_dataset, word_type):
+    words_list = df["Words"]
+
+    synonyms_dict = {}
+
+    for word in words_list:
+        list_synonyms = []
+        for syn in wordnet.synsets(word):
+            for lemm in syn.lemmas():
+                if lemm.name() not in list_synonyms:
+                    list_synonyms.append(lemm.name())
+        synonyms_dict[word] = list_synonyms
+
+    synonyms_scores_dict = {}
+    count = 0
+    print("creating synonym dict")
+    for word in synonyms_dict:
+        # print(word)
+        count += 1
+        synonyms_scores_dict[word] = []
+        for synonym in synonyms_dict[word]:
+            temp_dict_word_score = {}
+            for i in range(len(df)):
+                if df["Words"][i] == synonym:
+                    temp_dict_word_score[synonym] = df["total_weighted_score"][i]
+                    # print(temp_dict_word_score)
+                    synonyms_scores_dict[word].append(temp_dict_word_score)
+        if count == [100, 500, 1000]:
+            print(count)
+        else:
+            pass
+
+    synonyms_scores_dict_scores_only = {}
+
+    for word in synonyms_dict:
+        # print(word)
+        score_list_for_calculation = []
+        for synonym in synonyms_dict[word]:
+            for i in range(len(df)):
+                if df["Words"][i] == synonym:
+                    score = df["total_weighted_score"][i]
+                    # print(temp_dict_word_score)
+                    score_list_for_calculation.append(score)
+        if len(score_list_for_calculation) != 0:
+            max_num = np.max(score_list_for_calculation)
+        else:
+            max_num = 0
+        if len(score_list_for_calculation) != 0:
+            min_num = np.min(score_list_for_calculation)
+        else:
+            max_num = 0
+        synonyms_scores_dict_scores_only[word] = np.linalg.norm(max_num - min_num)
+
+    words = []
+    differences = []
+    synonyms_list = []
+
+    for word in synonyms_scores_dict_scores_only:
+        words.append(word)
+        differences.append(synonyms_scores_dict_scores_only[word])
+        synonyms_list.append(synonyms_scores_dict[word])
+
+    df_prep = {}
+
+    df_prep["words"] = words
+    df_prep["differences"] = differences
+    df_prep["synonyms"] = synonyms_list
+
+    #df.to_excel(r'Words_and_differences.xlsx', index=False)
+
+    file_name = folder_dataset + word_type + 's' + '_' + 'words_and_differences_' + datetime.now().strftime(
+        "%Y%m%d-%H%M%S") + '.xlsx'
+    df.to_excel(file_name, sheet_name='sheet1', index=False)
+    print(file_name)
