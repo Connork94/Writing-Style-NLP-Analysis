@@ -8,7 +8,9 @@ You will need to extract the RAR file with the texts into the project directory.
 
 The file Analysis Function Hyphenated Adj.py is a variation of the normal Analysis Function code. Hyphenated adjectives required a slightly different approach to process.
 
-find an R Shiny dashboard with data loaded here:
+## Read the analysis of the data here:
+
+## Find an R Shiny dashboard with data loaded here:
 https://connork.shinyapps.io/REHShinyFinal/
 
 
