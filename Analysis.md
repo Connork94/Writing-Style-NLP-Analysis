@@ -1,12 +1,12 @@
 
-#Introduction
+# Introduction
 
 This investigation attempts to identify changes in an author’s writing style and word choice over the course of their career using natural language processing. Natural language processing is a branch of computer science and linguistics concerned with how computers can process and analyze human language. The short stories of the author Robert E. Howard, which are available in the public domain and readily accessible online, were accumulated in a single dataset and analysed to identify frequently used words, and words whose usage was skewed towards either the start of end of Robert E. Howard’s career. This investigation identified several trends and changes in Robert E. Howard’s writing style which occurred as his writing style developed through his career.
 
-##What is Natural Language Processing
+## What is Natural Language Processing
 In short, natural language processing (NLP) is a field combining computer science and linguistics which seeks to create methods and analyses by which a computer can read, analyse, and understand human speech and writing.
 There are a variety of different computer programs in our daily lives which use NLP. For instance, the junk filter in your email service which detects junk mail uses natural language processing to identify emails which are probably spam.
-##Data processing
+## Data processing
 In this analysis NLP was used to organise words into different types (e.g. adjective, noun or verb) and then remove words such as definite or indefinite articles (the, a, that etc.) These words are known as stopwords in NLP.
 ##Incorrectly labelled words
 There are a large amount of words which cannot be organised according to their word type, such as proper nouns. Many proper nouns cannot be identified as a noun or adjective because they do not exist in a dictionary. For this reason, there is a large amount of “noise” in this dataset. This is inevitable when working which such a large dataset; there were over 11,000 adjectives identified and not feasible to manually check them all, so certain imperfections in the process must be accepted.
@@ -19,12 +19,12 @@ Other words which were in correctly identified were proper nouns (such as Cormac
 
 A full list of the words removed is available in the analysis code on GitHub.
 
-##Processing data
+## Processing data
 Each text source was saved in the .txt format. The data from these files was read and collected into a corpus.
 Each text source in the corpus was parsed into individual words, and stopwords and other unwanted words were removed. Each word was then identified as a noun, adjective, or verb and this data was stored in a dictionary using a NLP process known as part of speech tagging.
 Words were then divided by the word type into separate datasets for later analysis.
 
-##Analysing the data
+## Analysing the data
 To analyse the data, the words were identified which are more skewed towards the start or end of the dataset. This revealed the broad changes in the words used by REH over time. Synonyms were identified and grouped together. Groups of synonyms which had both words that were used at the start of REH’s career and words which were used at the end, indicating a change in the preference for a particular type of word over time were identified as being significant and analysed.
 
 A brief review of the most commonly used adjectives in REH’s stories allows for analysis of REH’s choice of words at a basic level. 
@@ -83,6 +83,6 @@ A score is close to zero indicates that the adjective was either not used freque
 
 
 
-##Notable Adjectives
+## Notable Adjectives
 The word awful was notably favoured by Howard later in his career, although he rarely used the word in the first half of his career.
 
