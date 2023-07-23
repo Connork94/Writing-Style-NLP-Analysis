@@ -88,8 +88,7 @@ A score is close to zero indicates that the adjective was either not used freque
 ## Adjectives
 ### Awful
 The word *awful* was notably favoured by Howard later in his career, although he rarely used the word in the first half of his career.
-
- ![ADJ_awful_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/ab7c4497-651e-466c-ba44-91907572ffb5)
+![ADJ_awful_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/ab7c4497-651e-466c-ba44-91907572ffb5)
 
 
 Looking at relative frequency, *awful* was used frequently in westerns and boxing stories. 
@@ -131,67 +130,68 @@ Notably, the words *awful*, terrible, and terrific, all imply a negative connota
 
 
 ### Pale and Livid
- Pale and livid were used throughout REH's career but identified as being skewed towards the end of REH's career and used in western, boxing, and fantasy stories.
-
- 
-
+Pale and livid were used throughout REH's career but identified as being skewed towards the end of REH's career and used in western, boxing, and fantasy stories.
+![ADJ_pale_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/64977f0a-769d-4093-9652-4b9d52eab22d)
+![ADJ_livid_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/6b2d4f11-c02c-496e-8ba9-38e49281557b)
 
 The hyphenated adjective white-faced was used infrequently, but more common earlier in Howard’s career. It is possible that pale and livid replaced the use of white-faced and other adjectives.
- 
+![ADJ_white-faced_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/7a5bf332-9dc9-4ac3-b986-0b5d9d9d9ad8)
+
+
 ### Supple
  
 REH began to use the word supple frequently later in his career. Supple was often used to describe women and men in fantasy stories.
-
-
+![ADJ_supple_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/ed0f25da-175c-451d-85b5-7ec982a3a14f)
 
 
 Looking at synonyms, lithe, slender, and limber were all skewed towards earlier, while supple was skewed towards later in the dataset.
 
 Table 2 Synonyms of the word “supple”
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
-slender	-132	supple	928
-limber	-41	lissome	91
-		lithe	8
+|**Early in Career**	| |**Later in Career**| |
+|---|---|---|---|
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
+|slender	|-132	|supple	|928
+|limber	|-41	|lissome	|91
+| |		|lithe	|8
 
 
 ### Dynamic
 Dynamic, a word frequently used to describe physical prowess, was more frequently used at the beginning of Howard's career, but usage diminished over time.
 Mighty is a similar adjective, although a bit more specific, was also used early in REH’s career. 
-
-
+![ADJ_dynamic_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/19bd86c7-8e6e-4af2-b2d8-faa4ddf83629)
 
 ### Mighty
- 
+![ADJ_mighty_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/9af40fea-2c21-4690-8fbe-ff7eaf5a376d)
 
 Analysing the synonyms of mighty indicates that muscular, powerful or brawny, became preferred as time went by.
 
 Table 3. Synonyms of the word “mighty”
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
-mighty	-691	muscular	602
-		powerful	122
-		brawny	178
+|**Early in Career**	| |**Later in Career**| |
+|---|---|---|---|
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
+|mighty	|-691	|muscular	|602
+|	|	|powerful	|122
+|	|	|brawny	|178
 
 
 ## Zoomorphism
 REH often compares humans to animals, a technique called zoomorphism.
 The hero of the story is often compared to a panther or tiger, villains are often wolfish, ape-like, or hawk-like, and heavyweight men are bulls.
->“They were wolves, but he was a tiger.”
--	Beyond the Black River, 1935
+>“They were wolves, but he was a tiger.” Beyond the Black River, 1935
+
 Usage of zoomorphic phrases tend to follow patterns.
 Beast-like, hawk-like, and lion-like were used commonly between 1930 and 1934, but then sporadically later.
- 
-
+![Hyphen_ADJ_beast-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/8665e6b8-a516-4c66-a056-69c1413d380b)
+![Hyphen_ADJ_hawk-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/cf9fe24d-409f-4db6-8051-978bf764727f)
+![Hyphen_ADJ_lion-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/894f53cf-c07e-4da5-8c39-bef2ea78882e)
 
 Ape-like was also used frequently between 1928 and 1930 but then abandoned until after 1934, when it was seldom used.
- 
+![Hyphen_ADJ_ape-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/74c50dfb-ab18-4aeb-b444-539d45879d45)
 
 
 ## Colours
 Another of REH’s favourite descriptive techniques is the use of vivid colours.
-> “A shuddering, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda”.
-•	Wings in the Night, 1933
+> “A shuddering, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda.” Wings in the Night, 1933
 
 Black was one of the most common adjectives used in Howards stories.
 
