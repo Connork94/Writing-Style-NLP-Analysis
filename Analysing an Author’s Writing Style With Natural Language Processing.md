@@ -89,6 +89,7 @@ A score is close to zero indicates that the adjective was either not used freque
 ## Adjectives
 ### Awful
 The word *awful* was notably favoured by Howard later in his career, although he rarely used the word in the first half of his career.
+
 ![ADJ_awful_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/ab7c4497-651e-466c-ba44-91907572ffb5)
 
 
@@ -115,6 +116,7 @@ Grand|	-25|	Wonderful	|25
 
 
 The word appall (the stem of the word appalling) is also heavily skewed towards the later part of REH’s work and REH began using the word at a similar point as *awful*.
+
 ![ADJ_appal_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/bc2194fb-3e70-432b-b4b8-eb2caf107042)
 
 
@@ -122,6 +124,7 @@ Synonyms for *awful* which were favoured early in REH’s career were identified
 
 ### Terrible and terrific
 Terrible and terrific were used throughout REH’s entire career, but the relative frequency of these words in each story indicates they was more frequently used within stories earlier in REH’s career. Effectively, the word was used consistently, but more frequently early in REH’s career.
+
 ![ADJ_terrible_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a1648f89-72ef-43e4-8f60-af4227599875)
 ![ADJ_terrific_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a3fe5336-779f-4e0a-b054-f28aca70efd2)
 
@@ -132,16 +135,19 @@ Notably, the words *awful*, terrible, and terrific, all imply a negative connota
 
 ### Pale and Livid
 Pale and livid were used throughout REH's career but identified as being skewed towards the end of REH's career and used in western, boxing, and fantasy stories.
+
 ![ADJ_pale_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/64977f0a-769d-4093-9652-4b9d52eab22d)
 ![ADJ_livid_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/6b2d4f11-c02c-496e-8ba9-38e49281557b)
 
 The hyphenated adjective white-faced was used infrequently, but more common earlier in Howard’s career. It is possible that pale and livid replaced the use of white-faced and other adjectives.
+
 ![ADJ_white-faced_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/7a5bf332-9dc9-4ac3-b986-0b5d9d9d9ad8)
 
 
 ### Supple
  
 REH began to use the word supple frequently later in his career. Supple was often used to describe women and men in fantasy stories.
+
 ![ADJ_supple_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/ed0f25da-175c-451d-85b5-7ec982a3a14f)
 
 
@@ -158,7 +164,8 @@ Looking at synonyms, lithe, slender, and limber were all skewed towards earlier,
 
 ### Dynamic
 Dynamic, a word frequently used to describe physical prowess, was more frequently used at the beginning of Howard's career, but usage diminished over time.
-Mighty is a similar adjective, although a bit more specific, was also used early in REH’s career. 
+Mighty is a similar adjective, although a bit more specific, was also used early in REH’s career.
+
 ![ADJ_dynamic_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/19bd86c7-8e6e-4af2-b2d8-faa4ddf83629)
 
 ### Mighty
