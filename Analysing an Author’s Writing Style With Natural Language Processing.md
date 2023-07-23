@@ -101,7 +101,7 @@ REH often used this word between 4 and 8 times in a single story, and after 1932
 
 Synonyms of the word *awful* were investigated to see identify noticeable patterns in similar words.
 
-Table. 1 Synonyms of the word “awful”
+***Synonyms of the word “awful”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
@@ -147,7 +147,7 @@ REH began to use the word supple frequently later in his career. Supple was ofte
 
 Looking at synonyms, lithe, slender, and limber were all skewed towards earlier, while supple was skewed towards later in the dataset.
 
-Table 2 Synonyms of the word “supple”
+***Synonyms of the word “supple”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
@@ -166,7 +166,7 @@ Mighty is a similar adjective, although a bit more specific, was also used early
 
 Analysing the synonyms of mighty indicates that muscular, powerful or brawny, became preferred as time went by.
 
-Table 3. Synonyms of the word “mighty”
+***Synonyms of the word “mighty”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
@@ -182,7 +182,7 @@ Table 3. Synonyms of the word “mighty”
 ## Zoomorphism
 REH often compares humans to animals, a technique called zoomorphism.
 The hero of the story is often compared to a panther or tiger, villains are often wolfish, ape-like, or hawk-like, and heavyweight men are bulls.
->“They were wolves, but he was a tiger.” Beyond the Black River, 1935
+>“They were wolves, but he was a tiger.” - Beyond the Black River, 1935
 
 Usage of zoomorphic phrases tend to follow patterns.
 Beast-like, hawk-like, and lion-like were used commonly between 1930 and 1934, but then sporadically later.
@@ -196,12 +196,12 @@ Ape-like was also used frequently between 1928 and 1930 but then abandoned until
 
 ## Colours
 Another of REH’s favourite descriptive techniques is the use of vivid colours.
-> “A shuddering, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda.” Wings in the Night, 1933
+> “A shuddering, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda.” - Wings in the Night, 1933
 
-Black was one of the most common adjectives used in Howards stories.
+*Black* was one of the most common adjectives used in Howard's stories.
 ![ADJ_black_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/5f26c258-95d0-4ebc-8444-56de5a0bfbf0)
 
-The colour red was mentioned in almost every story. 
+The colour *red* was mentioned in almost every story. 
 ![ADJ_red_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a781aa0d-52a0-46b2-a2b2-ed62b84264e9)
 
 Some hyphenated adjectives which used red such as blood-red or red-stained were used sporadically after 1933, but rarely before. This is consistent with Howard’s used of hyphenated adjectives; Howard invents a hyphenated adjective, uses it for a period of time, before eventually abandoning it.
@@ -213,7 +213,7 @@ Some hyphenated adjectives which used red such as blood-red or red-stained were 
 
 ### Crimson
 Crimson was less common but also frequently used and spread across Howards entire career.
- ![ADJ_crimson_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/30cd945e-5a5e-4086-8f2d-add1d2f1cf1e)
+![ADJ_crimson_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/30cd945e-5a5e-4086-8f2d-add1d2f1cf1e)
 
 ## Hyphenated Adjectives
 A notable aspect of early 20th century fiction was the use of hyphenated adjectives.
@@ -239,7 +239,7 @@ Examining synonyms of fling shows a variety of other verbs such as toss, whirl, 
 ![VERB_fling_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/3049a68a-7e11-4e69-8635-c199892525d3)
 
 
-Table 4 Synonyms of the word “fling”
+***Synonyms of the word “fling”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
@@ -254,14 +254,15 @@ Table 4 Synonyms of the word “fling”
 ### Jump
 ![VERB_jump_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/b51c10fc-d3b5-426b-a8bf-bd4bf7a9aacc)
 
-![VERB_leap_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/688ef76a-1f7a-41d8-bab8-20ae23fea6b5)
-
+***Synonyms of the word “jump”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
 |Leap	|-508	|Jump	|1471
 |Bound	|-186	|	|
 |Spring	|-135	|	|
+
+![VERB_leap_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/688ef76a-1f7a-41d8-bab8-20ae23fea6b5)
 
 
 ### Slug (Slugging)
@@ -271,7 +272,8 @@ The verbs slug, punch and smash are notable examples.
 ![VERB_slug_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/194f38d4-7692-4967-90ce-e9714623cf28)
 
 Analysing synonyms of slug shows that less specific verbs came to replace the boxing-based verbs after 1930.
-Synonyms of the word “slug”
+
+***Synonyms of the word “slug”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
@@ -284,7 +286,7 @@ Synonyms of the word “slug”
 ### Hack
 ![VERB_hack_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a750b765-82c4-4e73-ae5e-a0bf37a37a34)
 
-
+***Synonyms of the word “hack”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
@@ -296,6 +298,7 @@ rend	-149	rip	530
 ### Slay
 ![VERB_slay_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a51afca8-63c3-49cc-85c0-930bea7da4c5)
 
+***Synonyms of the word “slay”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
@@ -321,7 +324,7 @@ Many verbs were favoured later or early in REH’s but no identifiable shifts in
 Words like shriek, howl, yell, and scream were preferred later in REH’s career. It is unclear why this shift occurred, but it may relate to a change in the genre, in which REH was writing.
 ![VERB_shriek_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/68a26a08-9335-4e4d-b5e4-86b616645255)
 
-
+***Synonyms of the word “shriek”***
 |**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
 **Word** | **Weighted Score** | **Word** |**Weighted Score**
@@ -369,9 +372,9 @@ Themes relating to boxing also are used more frequently early in Howard’s care
 ‘Fighter’, ‘round’, ‘cheek’, ‘punch’, ‘glove’, ’forehead’, ‘referee’, and ‘uppercut’ are observable.
 
 Interesting examples of words which may indicate either stylistic changes in writing or simply change in theme are “nobody”, “anybody”, and “somebody”, which were used more frequently later.
- ![NOUN_nobody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c7fedfb4-ad68-4336-a607-ccf72e2f7944)
+![NOUN_nobody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c7fedfb4-ad68-4336-a607-ccf72e2f7944)
 ![NOUN_anybody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/b0c74674-ac3e-4316-89e6-f66cc48e61e4)
- ![NOUN_somebody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c639afad-181f-466b-a19c-25015373a68a)
+![NOUN_somebody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c639afad-181f-466b-a19c-25015373a68a)
  
 It’s easy to imagine these words being used in the context of a western story, which is more modern, but more difficult to see them being used in fantasy or historical fiction. Despite these, these words were not used in many of the early stories in a contemporary setting, such as Skull-Face.
 
