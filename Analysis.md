@@ -173,6 +173,10 @@ Table 3. Synonyms of the word “mighty”
 |	|	|powerful	|122
 |	|	|brawny	|178
 
+![ADJ_muscular_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a1123e7c-7e59-4970-a155-11fdd13e20b4)
+![ADJ_powerful_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/2faf2618-70b0-4f79-96b8-bbf693bd604c)
+![ADJ_brawny_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/06e059db-172f-4ba1-834a-25fc9f8bb15c)
+
 
 ## Zoomorphism
 REH often compares humans to animals, a technique called zoomorphism.
