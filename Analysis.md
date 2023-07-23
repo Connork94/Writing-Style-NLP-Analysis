@@ -1,4 +1,4 @@
-![VERB_pant_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/947ca902-d86b-4498-9065-a4c63ddb8d2e)
+
 # Introduction
 
 This investigation attempts to identify changes in an author’s writing style and word choice over the course of their career using natural language processing. Natural language processing is a branch of computer science and linguistics concerned with how computers can process and analyze human language. The short stories of the author Robert E. Howard, which are available in the public domain and readily accessible online, were accumulated in a single dataset and analysed to identify frequently used words, and words whose usage was skewed towards either the start of end of Robert E. Howard’s career. This investigation identified several trends and changes in Robert E. Howard’s writing style which occurred as his writing style developed through his career.
