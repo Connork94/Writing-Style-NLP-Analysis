@@ -186,11 +186,13 @@ The hero of the story is often compared to a panther or tiger, villains are ofte
 
 Usage of zoomorphic phrases tend to follow patterns.
 Beast-like, hawk-like, and lion-like were used commonly between 1930 and 1934, but then sporadically later.
+
 ![Hyphen_ADJ_beast-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/8665e6b8-a516-4c66-a056-69c1413d380b)
 ![Hyphen_ADJ_hawk-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/cf9fe24d-409f-4db6-8051-978bf764727f)
 ![Hyphen_ADJ_lion-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/894f53cf-c07e-4da5-8c39-bef2ea78882e)
 
 Ape-like was also used frequently between 1928 and 1930 but then abandoned until after 1934, when it was seldom used.
+
 ![Hyphen_ADJ_ape-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/74c50dfb-ab18-4aeb-b444-539d45879d45)
 
 
@@ -199,9 +201,11 @@ Another of REH’s favourite descriptive techniques is the use of vivid colours.
 > “A shuddering, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda.” - Wings in the Night, 1933
 
 *Black* was one of the most common adjectives used in Howard's stories.
+
 ![ADJ_black_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/5f26c258-95d0-4ebc-8444-56de5a0bfbf0)
 
 The colour *red* was mentioned in almost every story. 
+
 ![ADJ_red_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a781aa0d-52a0-46b2-a2b2-ed62b84264e9)
 
 Some hyphenated adjectives which used red such as blood-red or red-stained were used sporadically after 1933, but rarely before. This is consistent with Howard’s used of hyphenated adjectives; Howard invents a hyphenated adjective, uses it for a period of time, before eventually abandoning it.
@@ -213,6 +217,7 @@ Some hyphenated adjectives which used red such as blood-red or red-stained were 
 
 ### Crimson
 Crimson was less common but also frequently used and spread across Howards entire career.
+
 ![ADJ_crimson_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/30cd945e-5a5e-4086-8f2d-add1d2f1cf1e)
 
 ## Hyphenated Adjectives
@@ -221,10 +226,12 @@ This style lost favor later in the century, giving way to less florid descriptio
 Howard did indulge in hyphenated adjectives, and some of his most vivid descriptions are such phrases.
 Interestingly, Howard often uses a particular hyphenated combination for a period of time, and thereafter abandons it.
 A good example being “glass-eyed”, which Howard used 7 times between 1930 and 1932 but only twice after that period and never before 1932. Howards seems to find a new hyphenated adjective or phrase that he likes, then uses this for several stories until it becomes stale and moves on to other descriptions.
+
 ![Hyphen_ADJ_glassy-eyed_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/10a6bfed-fade-481f-b754-455e6b36b612)
 
 ### blood thirsty, and blood curdling
 When examining the use of blood-thirsty and blood-curdling an interesting pattern emerges. Both adjectives appear to be used during specific periods of time, if not in the same stories, in stories written immediately before or after.
+
 ![Hyphen_ADJ_blood-thirsty_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/0dd7d00d-39f7-4adf-b2ca-b3b41de538e1)
 ![Hyphen_ADJ_blood-curdling_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/575fd902-d5f0-45a9-a023-8464c62e1d21)
 
@@ -236,6 +243,7 @@ The use of fling changed drastically over time. Not only was the word used in mo
 
 ### Fling
 Examining synonyms of fling shows a variety of other verbs such as toss, whirl, and pass became preferred later in REH’s career.
+
 ![VERB_fling_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/3049a68a-7e11-4e69-8635-c199892525d3)
 
 
@@ -309,6 +317,7 @@ rend	-149	rip	530
 
 ### Gaze
 Gaze was used more frequently in 1920’s but the proportional usage remained even over the course of Howard’s career.
+
 ![VERB_gaze_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/bfca7932-3335-4fc2-bec2-cc4d4141f851)
 
 
@@ -322,6 +331,7 @@ Many verbs were favoured later or early in REH’s but no identifiable shifts in
 
 ### Shriek
 Words like shriek, howl, yell, and scream were preferred later in REH’s career. It is unclear why this shift occurred, but it may relate to a change in the genre, in which REH was writing.
+
 ![VERB_shriek_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/68a26a08-9335-4e4d-b5e4-86b616645255)
 
 ***Synonyms of the word “shriek”***
@@ -372,6 +382,7 @@ Themes relating to boxing also are used more frequently early in Howard’s care
 ‘Fighter’, ‘round’, ‘cheek’, ‘punch’, ‘glove’, ’forehead’, ‘referee’, and ‘uppercut’ are observable.
 
 Interesting examples of words which may indicate either stylistic changes in writing or simply change in theme are “nobody”, “anybody”, and “somebody”, which were used more frequently later.
+
 ![NOUN_nobody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c7fedfb4-ad68-4336-a607-ccf72e2f7944)
 ![NOUN_anybody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/b0c74674-ac3e-4316-89e6-f66cc48e61e4)
 ![NOUN_somebody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c639afad-181f-466b-a19c-25015373a68a)
