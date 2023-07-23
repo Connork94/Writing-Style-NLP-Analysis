@@ -62,7 +62,7 @@ hard	576
 Looking at the lesser used but still common adjectives, aspects of REH’s style become identifiable.
 Among the most commonly used adjectives are the colours Black, Red, and White. These colours are used as adjectives in the majority of stories and are often featured in the story titles.
 In addition, other highly provocative adjectives are identifiable as characteristic of REH’s writing style.
-•	Dark
+> •	Dark
 •	Dead
 •	Wild
 •	Strange
@@ -83,38 +83,40 @@ A score is close to zero indicates that the adjective was either not used freque
 
 
 
-## Notable Adjectives
+## Adjectives
 ### Awful
 The word awful was notably favoured by Howard later in his career, although he rarely used the word in the first half of his career.
 
  
+![awful_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/5997ff8c-660a-4044-a073-595b69659d9f)
 
 
 Looking at relative frequency, awful was used frequently in westerns and boxing stories. 
 REH often used this word between 4 and 8 times in a single story, and after 1932 REH used awful in almost every story. In addition, REH used awful to describe a wide range of nouns, often abstract nouns.
 
-•	what awful perils lurk beyond that door I cannot even guess
-o	Hour of the dragon 1936
-•	an awful expression of dazed surprise
-o	The man on the ground 1933
+> "What awful perils lurk beyond that door I cannot even guess" - Hour of the Dragon, 1936
+ 
+> "An awful expression of dazed surprise" - The Man on the Ground, 1933
 
 Synonyms of the word awful were investigated to see identify noticeable patterns in similar words.
 
 Table. 1 Synonyms of the word “awful”
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
-Terrific	-577	Awful	1850
-Frightful	-255	Appal	686
-Terrible	-205	Enormous	255
-Wondrous	-65	Tremendous	171
-Fantastic	-43	Marvelous	83
-Grand	-25	Wonderful	25
+|Early in Career	| |Later in Career| |
+|---|---|---|---|
+Word | Weighted Score | Word |Weighted Score
+Terrific|	-577|	Awful	|1850
+Frightful|	-255|	Appal	|686
+Terrible|	-205|	Enormous	|255
+Wondrous|	-65|	Tremendous	|171
+Fantastic|	-43|	Marvelous	|83
+Grand|	-25|	Wonderful	|25
 			
 
 
 The word appall (the stem of the word appalling) is also heavily skewed towards the later part of REH’s work and REH began using the word at a similar point as awful.
 
- 
+ ![appal_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/254977de-46b0-41e9-b3cc-0f8992618961)
+
 
 Synonyms for awful which were favoured early in REH’s career were identified. These words were terrible and terrific. 
 
@@ -122,8 +124,10 @@ Synonyms for awful which were favoured early in REH’s career were identified. 
 Terrible and terrific were used throughout REH’s entire career, but the relative frequency of these words in each story indicates they was more frequently used within stories earlier in REH’s career. Effectively, the word was used consistently, but more frequently early in REH’s career.
 
  
+![terrible_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/41c0455e-0bc1-4847-8b56-874f7a456eea)
 
  
+![terrific_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/5154d065-89f7-47f8-bb96-9e7752d7eff5)
 
 
 Notably, the words awful, terrible, and terrific, all imply a negative connotation and could be used interchangeably, indicating a change in preference for negative adjectives over time.
@@ -134,9 +138,11 @@ Notably, the words awful, terrible, and terrific, all imply a negative connotati
  Pale and livid were used throughout REH's career but identified as being skewed towards the end of REH's career and used in western, boxing, and fantasy stories.
 
  
+![pale_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/49a00b67-7638-4910-a785-9d266ef98c28)
 
 
- 
+ ![livid_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c321f449-29a1-4ad3-929a-1d3e1c5bae7c)
+
 
 The hyphenated adjective white-faced was used infrequently, but more common earlier in Howard’s career. It is possible that pale and livid replaced the use of white-faced and other adjectives.
  
@@ -144,7 +150,8 @@ The hyphenated adjective white-faced was used infrequently, but more common earl
  
 REH began to use the word supple frequently later in his career. Supple was often used to describe women and men in fantasy stories.
 
- 
+ ![supple_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/22615a13-e94b-437f-990b-5f8f8baac2d0)
+
 
 
 Looking at synonyms, lithe, slender, and limber were all skewed towards earlier, while supple was skewed towards later in the dataset.
@@ -161,10 +168,12 @@ limber	-41	lissome	91
 Dynamic, a word frequently used to describe physical prowess, was more frequently used at the beginning of Howard's career, but usage diminished over time.
 Mighty is a similar adjective, although a bit more specific, was also used early in REH’s career. 
 
- 
+![dynamic_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/f3f74ffe-65ed-423d-9b18-053362e51f91)
+
 
 ### Mighty
  
+![mighty_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/b77cf924-fd34-4bf6-8314-53fabd2c03b2)
 
 Analysing the synonyms of mighty indicates that muscular, powerful or brawny, became preferred as time went by.
 
@@ -179,43 +188,41 @@ mighty	-691	muscular	602
 ## Zoomorphism
 REH often compares humans to animals, a technique called zoomorphism.
 The hero of the story is often compared to a panther or tiger, villains are often wolfish, ape-like, or hawk-like, and heavyweight men are bulls.
-“They were wolves, but he was a tiger.”
--	Beyond the Black River
+>“They were wolves, but he was a tiger.”
+-	Beyond the Black River, 1935
 Usage of zoomorphic phrases tend to follow patterns.
 Beast-like, hawk-like, and lion-like were used commonly between 1930 and 1934, but then sporadically later.
  
+ ![beast-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/16884253-f135-459b-8daf-54fac3a5f606)
  
- 
+![hawk-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/99fef04f-5ce7-41fa-8bbb-93fd41527137)
+
+![lion-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/5994e3da-797b-4880-a0d3-cdadadadcd67)
 
 
 Ape-like was also used frequently between 1928 and 1930 but then abandoned until after 1934, when it was seldom used.
  
-
-
-
-
-
-
-
-
-
-
+![ape-like_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/3b8686fc-1c1d-4dc8-8ad8-e5a3fee5ccdd)
 
 
 ## Colours
 Another of REH’s favourite descriptive techniques is the use of vivid colours.
-“A SHUDDERING, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda”.
-•	Wings in the Night
+> “A shuddering, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda”.
+•	Wings in the Night, 1933
+
 Black was one of the most common adjectives used in Howards stories.
- 
+ ![black_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/0b595f22-9feb-4441-b30a-2a812fdf0fb3)
+
 
 The colour red was mentioned in almost every story. 
- 
+![red_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/89ada6e4-0546-450e-b858-8da0fcc34607)
+
 Some hyphenated adjectives which used red such as blood-red or red-stained were used sporadically after 1933, but rarely before. This is consistent with Howard’s used of hyphenated adjectives; Howard invents a hyphenated adjective, uses it for a period of time, before eventually abandoning it.
 Blood-red
- 
+
 ### Red-stained
- 
+ ![red-stained_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/f3a13f4a-73d8-431a-b045-b13d0abc3916)
+
 ### Crimson
 Crimson was less common but also frequently used and spread across Howards entire career.
  
@@ -226,21 +233,26 @@ This style lost favor later in the century, giving way to less florid descriptio
 Howard did indulge in hyphenated adjectives, and some of his most vivid descriptions are such phrases.
 Interestingly, Howard often uses a particular hyphenated combination for a period of time, and thereafter abandons it.
 A good example being “glass-eyed”, which Howard used 7 times between 1930 and 1932 but only twice after that period and never before 1932. Howards seems to find a new hyphenated adjective or phrase that he likes, then uses this for several stories until it becomes stale and moves on to other descriptions.
- 
+
+![glassy-eyed_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/8a4c8508-870b-458f-9120-139c2f6875df)
 
 ### blood thirsty, and blood curdling
 When examining the use of blood-thirsty and blood-curdling an interesting pattern emerges. Both adjectives appear to be used during specific periods of time, if not in the same stories, in stories written immediately before or after.
 
  
+![blood-thirsty_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/57a58ae2-fff0-4ea7-aac0-91144aa57059)
 
- 
+ ![blood-curdling_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/db416f6d-5c64-4fdd-a798-0b8bd479c40e)
+
+![blood-lusting_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/e8784e59-0d83-4472-aafc-975b6359a5a1)
 
 
 Here a notable characteristic of Howard’s writing style can be seen, that of finding a description which he enjoys using, employing this description, followed by the eventually abandonment of the description after he has used it for a period.
-Verbs
+## Verbs
 Even from his early career, Howard’s action scenes stood out as exceptional. Howard’s use of verbs is crucial to these scenes and examining verbs shows some the most distinct changes in his writing style over time.
 Early verbs
 The use of fling changed drastically over time. Not only was the word used in more stories early in Howard’s career but also used more frequently within those stories.
+
  
 Examining synonyms of fling shows a variety of other verbs such as toss, whirl, and pass became preferred later in REH’s career.
 
