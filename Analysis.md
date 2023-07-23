@@ -30,34 +30,36 @@ To analyse the data, the words were identified which are more skewed towards the
 A brief review of the most commonly used adjectives in REH’s stories allows for analysis of REH’s choice of words at a basic level. 
 Among the most common adjectives are, of course, common adjectives which any author would use. Adjectives like big, small etc.
 
-Word	Frequency
-black	2620
-other	1859
-great	1856
-old	1810
-long	1324
-last	1227
-more	1146
-white	1091
-dead	1082
-red	994
-big	990
-own	983
-first	977
-open	883
-few	882
-many	855
-wild	801
-good	793
-dark	686
-human	677
-such	672
-strange	671
-high	668
-full	646
-right	621
-little	602
-hard	576
+|**Word**	|**Frequency**|
+|---|---|
+|	black	|	2620
+|	other	|	1859
+|	great	|	1856
+|	old	|	1810
+|	long	|	1324
+|	last	|	1227
+|	more	|	1146
+|	white	|	1091
+|	dead	|	1082
+|	red	|	994
+|	big	|	990
+|	own	|	983
+|	first	|	977
+|	open	|	883
+|	few	|	882
+|	many	|	855
+|	wild	|	801
+|	good	|	793
+|	dark	|	686
+|	human	|	677
+|	such	|	672
+|	strange	|	671
+|	high	|	668
+|	full	|	646
+|	right	|	621
+|	little	|	602
+|	hard	|	576
+
 
 Looking at the lesser used but still common adjectives, aspects of REH’s style become identifiable.
 Among the most commonly used adjectives are the colours Black, Red, and White. These colours are used as adjectives in the majority of stories and are often featured in the story titles.
@@ -85,24 +87,24 @@ A score is close to zero indicates that the adjective was either not used freque
 
 ## Adjectives
 ### Awful
-The word awful was notably favoured by Howard later in his career, although he rarely used the word in the first half of his career.
+The word *awful* was notably favoured by Howard later in his career, although he rarely used the word in the first half of his career.
 
  ![ADJ_awful_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/ab7c4497-651e-466c-ba44-91907572ffb5)
 
 
-Looking at relative frequency, awful was used frequently in westerns and boxing stories. 
-REH often used this word between 4 and 8 times in a single story, and after 1932 REH used awful in almost every story. In addition, REH used awful to describe a wide range of nouns, often abstract nouns.
+Looking at relative frequency, *awful* was used frequently in westerns and boxing stories. 
+REH often used this word between 4 and 8 times in a single story, and after 1932 REH used *awful* in almost every story. In addition, REH used *awful* to describe a wide range of nouns, often abstract nouns.
 
 > "What awful perils lurk beyond that door I cannot even guess" - Hour of the Dragon, 1936
  
 > "An awful expression of dazed surprise" - The Man on the Ground, 1933
 
-Synonyms of the word awful were investigated to see identify noticeable patterns in similar words.
+Synonyms of the word *awful* were investigated to see identify noticeable patterns in similar words.
 
 Table. 1 Synonyms of the word “awful”
-|Early in Career	| |Later in Career| |
+|**Early in Career**	| |**Later in Career**| |
 |---|---|---|---|
-Word | Weighted Score | Word |Weighted Score
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
 Terrific|	-577|	Awful	|1850
 Frightful|	-255|	Appal	|686
 Terrible|	-205|	Enormous	|255
@@ -112,11 +114,11 @@ Grand|	-25|	Wonderful	|25
 			
 
 
-The word appall (the stem of the word appalling) is also heavily skewed towards the later part of REH’s work and REH began using the word at a similar point as awful.
+The word appall (the stem of the word appalling) is also heavily skewed towards the later part of REH’s work and REH began using the word at a similar point as *awful*.
 ![ADJ_appal_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/bc2194fb-3e70-432b-b4b8-eb2caf107042)
 
 
-Synonyms for awful which were favoured early in REH’s career were identified. These words were terrible and terrific. 
+Synonyms for *awful* which were favoured early in REH’s career were identified. These words were terrible and terrific. 
 
 ### Terrible and terrific
 Terrible and terrific were used throughout REH’s entire career, but the relative frequency of these words in each story indicates they was more frequently used within stories earlier in REH’s career. Effectively, the word was used consistently, but more frequently early in REH’s career.
@@ -124,7 +126,7 @@ Terrible and terrific were used throughout REH’s entire career, but the relati
 ![ADJ_terrific_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a3fe5336-779f-4e0a-b054-f28aca70efd2)
 
 
-Notably, the words awful, terrible, and terrific, all imply a negative connotation and could be used interchangeably, indicating a change in preference for negative adjectives over time.
+Notably, the words *awful*, terrible, and terrific, all imply a negative connotation and could be used interchangeably, indicating a change in preference for negative adjectives over time.
 
 
 
