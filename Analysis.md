@@ -1,4 +1,4 @@
-
+![VERB_pant_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/947ca902-d86b-4498-9065-a4c63ddb8d2e)
 # Introduction
 
 This investigation attempts to identify changes in an author’s writing style and word choice over the course of their career using natural language processing. Natural language processing is a branch of computer science and linguistics concerned with how computers can process and analyze human language. The short stories of the author Robert E. Howard, which are available in the public domain and readily accessible online, were accumulated in a single dataset and analysed to identify frequently used words, and words whose usage was skewed towards either the start of end of Robert E. Howard’s career. This investigation identified several trends and changes in Robert E. Howard’s writing style which occurred as his writing style developed through his career.
@@ -194,18 +194,21 @@ Another of REH’s favourite descriptive techniques is the use of vivid colours.
 > “A shuddering, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda.” Wings in the Night, 1933
 
 Black was one of the most common adjectives used in Howards stories.
-
+![ADJ_black_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/5f26c258-95d0-4ebc-8444-56de5a0bfbf0)
 
 The colour red was mentioned in almost every story. 
+![ADJ_red_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a781aa0d-52a0-46b2-a2b2-ed62b84264e9)
 
 Some hyphenated adjectives which used red such as blood-red or red-stained were used sporadically after 1933, but rarely before. This is consistent with Howard’s used of hyphenated adjectives; Howard invents a hyphenated adjective, uses it for a period of time, before eventually abandoning it.
-Blood-red
+### Blood-red
+![Hyphen_ADJ_blood-red_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c757a5e3-62d4-42d5-a167-d063cf6f18a1)
 
 ### Red-stained
+![Hyphen_ADJ_red-stained_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/4c3c478c-3c0d-4585-bd64-0864b77855bf)
 
 ### Crimson
 Crimson was less common but also frequently used and spread across Howards entire career.
- 
+ ![ADJ_crimson_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/30cd945e-5a5e-4086-8f2d-add1d2f1cf1e)
 
 ## Hyphenated Adjectives
 A notable aspect of early 20th century fiction was the use of hyphenated adjectives.
@@ -213,13 +216,12 @@ This style lost favor later in the century, giving way to less florid descriptio
 Howard did indulge in hyphenated adjectives, and some of his most vivid descriptions are such phrases.
 Interestingly, Howard often uses a particular hyphenated combination for a period of time, and thereafter abandons it.
 A good example being “glass-eyed”, which Howard used 7 times between 1930 and 1932 but only twice after that period and never before 1932. Howards seems to find a new hyphenated adjective or phrase that he likes, then uses this for several stories until it becomes stale and moves on to other descriptions.
-
+![Hyphen_ADJ_glassy-eyed_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/10a6bfed-fade-481f-b754-455e6b36b612)
 
 ### blood thirsty, and blood curdling
 When examining the use of blood-thirsty and blood-curdling an interesting pattern emerges. Both adjectives appear to be used during specific periods of time, if not in the same stories, in stories written immediately before or after.
-
- 
-
+![Hyphen_ADJ_blood-thirsty_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/0dd7d00d-39f7-4adf-b2ca-b3b41de538e1)
+![Hyphen_ADJ_blood-curdling_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/575fd902-d5f0-45a9-a023-8464c62e1d21)
 
 Here a notable characteristic of Howard’s writing style can be seen, that of finding a description which he enjoys using, employing this description, followed by the eventually abandonment of the description after he has used it for a period.
 ## Verbs
@@ -227,145 +229,144 @@ Even from his early career, Howard’s action scenes stood out as exceptional. H
 Early verbs
 The use of fling changed drastically over time. Not only was the word used in more stories early in Howard’s career but also used more frequently within those stories.
 
- 
+### Fling
 Examining synonyms of fling shows a variety of other verbs such as toss, whirl, and pass became preferred later in REH’s career.
+![VERB_fling_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/3049a68a-7e11-4e69-8635-c199892525d3)
+
 
 Table 4 Synonyms of the word “fling”
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
-fling	-1052	whirl	692
-		pass	442
-		dispose	363
-		discard	343
-		toss	221
+|**Early in Career**	| |**Later in Career**| |
+|---|---|---|---|
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
+|fling	|-1052	|whirl	|692
+|	|	|pass	442
+|	|	|dispose	|363
+|	|	|discard	|343
+|	|	|toss	|221
 
 
 
 ### Jump
+![VERB_jump_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/b51c10fc-d3b5-426b-a8bf-bd4bf7a9aacc)
 
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
-Leap	-508	Jump	1471
-Bound	-186		
-Spring	-135		
+![VERB_leap_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/688ef76a-1f7a-41d8-bab8-20ae23fea6b5)
+
+|**Early in Career**	| |**Later in Career**| |
+|---|---|---|---|
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
+|Leap	|-508	|Jump	|1471
+|Bound	|-186	|	|
+|Spring	|-135	|	|
 
 
 ### Slug (Slugging)
 Verbs describing boxing or fisticuffs were common in the late 1920s and early 1930s in REH’s work. These words were preferred mainly in short stories about boxing, which were popular in pulp magazines at the time.
- The verbs slug, punch and smash are notable examples.
- 
+The verbs slug, punch and smash are notable examples.
 
+![VERB_slug_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/194f38d4-7692-4967-90ce-e9714623cf28)
 
 Analysing synonyms of slug shows that less specific verbs came to replace the boxing-based verbs after 1930.
 Synonyms of the word “slug”
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
-slug	-355	hit	1422
-punch	-258	strike	244
-smash	-232	belt	98
+|**Early in Career**	| |**Later in Career**| |
+|---|---|---|---|
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
+|slug	|-355	|hit	|1422
+|punch	|-258	|strike	|244
+|smash	|-232	|belt	|98
 
-
-
-
-
-
+![VERB_hit_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/96547329-629d-40a1-8de7-394fe8d33be1)
  
 ### Hack
- 
+![VERB_hack_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a750b765-82c4-4e73-ae5e-a0bf37a37a34)
 
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
+
+|**Early in Career**	| |**Later in Career**| |
+|---|---|---|---|
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
 hack	-436	cut	530
 rend	-149	rip	530
 		tear	463
 
 
 ### Slay
- 
+![VERB_slay_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a51afca8-63c3-49cc-85c0-930bea7da4c5)
 
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
-slay	-373	murder	651
+|**Early in Career**	| |**Later in Career**| |
+|---|---|---|---|
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
+|slay	|-373	|murder	|651
+
+![VERB_murder_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/d6415a13-dc49-43cf-814f-1c2a5700e203)
+
 
 ### Gaze
 Gaze was used more frequently in 1920’s but the proportional usage remained even over the course of Howard’s career.
- 
+![VERB_gaze_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/bfca7932-3335-4fc2-bec2-cc4d4141f851)
+
 
 
 ## Other verbs
 Many verbs were favoured later or early in REH’s but no identifiable shifts in preference for these verbs was identified in the related synonyms.
 
 ### Stumble
- 
+![VERB_stumble_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/f6f97c07-9bf5-4a2b-920a-f987e217aceb)
+
 
 ### Shriek
 Words like shriek, howl, yell, and scream were preferred later in REH’s career. It is unclear why this shift occurred, but it may relate to a change in the genre, in which REH was writing.
- 
+![VERB_shriek_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/68a26a08-9335-4e4d-b5e4-86b616645255)
 
 
-Early in Career	Later in Career
-Word	Weighted Score	Word	Weighted Score
-		howl	1138
-		shriek	1047
-		yell	949
-		holler	931
-		squall	567
-		scream	454
-		Roar	360
-		cry	314
-		shrill	238
-		Wail	186
-		screech	53
+|**Early in Career**	| |**Later in Career**| |
+|---|---|---|---|
+**Word** | **Weighted Score** | **Word** |**Weighted Score**
+|	|	|howl	|1138
+|	|	|shriek	|1047
+|	|	|yell	|949
+|	|	|holler	|931
+|	|	|squall	|567
+|	|	|scream	|454
+|	|	|Roar	|360
+|	|	|cry	|314
+|	|	|shrill	|238
+|	|	|Wail	|186
+|	|	|screech	|53
 
- 
+![VERB_howl_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/50d52c7e-703e-46d4-82ce-7596f3963cdd)
 
 ### Glimpse
- 
+![VERB_glimpse_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/25f3e9a6-fbc3-4881-8fc4-79b7359f5ac1)
 
 ### Assure
- 
+![VERB_assure_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/874ab90b-26ae-4d2f-a1af-d2b7edf0efe3)
 
 ### Pant (Panting)
- 
+![VERB_pant_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/e9761bc2-a6ae-4a21-a625-312a5d99fbbc)
 
 ### Pull
 Although a basic verb, “Pull” increased in frequency towards the end of Howard’s career.
- 
+![VERB_pull_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/23155346-029d-45d8-af66-0d026586b206)
 
 ### Demand
- 
-
-
+![VERB_demand_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/bcb5b0c1-898c-476b-ba6d-579f8b410a19)
 
 ### Grab
- 
-
+![VERB_grab_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/1cd00033-0feb-4816-b127-4d7b9d2f8871)
 
 ## Noun usage
 The genre of story that Howard was writing is the decisive factor determining whether Howard used a particular noun. Howard wrote in several different genres through his careers, according to trends in the magazine market, wherein he sold his writing.
-Nouns such as ‘pistol’, ‘boot’, ‘wheel’, ‘dust’, and ‘saddle’, are all words that are heavily skewed towards late career usage. This is hardly surprising as Howard wrote and sold many western stories later in his career after he had realized the potential of this market.
- 
- 
-
- 
+Nouns such as *pistol*, *boot*, *wheel*, *dust*, and *saddle*, are all words that are heavily skewed towards late career usage. This is hardly surprising as Howard wrote and sold many western stories later in his career after he had realized the potential of this market.
 
 Words used early in Howard’s career and not later tend to be nautical themed.
-‘Sea’, ‘ship’, ‘ocean’, ‘tide’, ‘wharf’, and ‘coast’ are notable examples.
-
-Sea, Ship, Ocean, Tide, Wharf, and Coast
- 
- 
- 
- 
- 
- 
+*Sea*, *ship*, *ocean*, *tide*, *wharf*, and *coast* are notable examples.
 
 Themes relating to boxing also are used more frequently early in Howard’s career.
 ‘Fighter’, ‘round’, ‘cheek’, ‘punch’, ‘glove’, ’forehead’, ‘referee’, and ‘uppercut’ are observable.
 
 Interesting examples of words which may indicate either stylistic changes in writing or simply change in theme are “nobody”, “anybody”, and “somebody”, which were used more frequently later.
- 
- 
+ ![NOUN_nobody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c7fedfb4-ad68-4336-a607-ccf72e2f7944)
+![NOUN_anybody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/b0c74674-ac3e-4316-89e6-f66cc48e61e4)
+ ![NOUN_somebody_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/c639afad-181f-466b-a19c-25015373a68a)
  
 It’s easy to imagine these words being used in the context of a western story, which is more modern, but more difficult to see them being used in fantasy or historical fiction. Despite these, these words were not used in many of the early stories in a contemporary setting, such as Skull-Face.
 
