@@ -11,7 +11,7 @@ The file Analysis Function Hyphenated Adj.py is a variation of the normal Analys
 ## Read the analysis of the data here:
 https://github.com/Connork94/Robert-E-Howard-NLP-analysis/blob/main/Analysis.md
 
-## Find an R Shiny dashboard with data loaded here:
+## Explore an R Shiny dashboard with interactive line chart here:
 https://connork.shinyapps.io/REHShinyFinal/
 
 
