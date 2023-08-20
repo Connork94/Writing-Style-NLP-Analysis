@@ -26,9 +26,9 @@ Each text source in the corpus was parsed into individual words, and stopwords a
 Words were then divided by the word type into separate datasets for later analysis.
 
 # Analysing the data
-To analyse the data, the words were identified which are more skewed towards the start or end of the dataset. This revealed the broad changes in the words used by REH over time. Synonyms were identified and grouped together. Groups of synonyms which had both words that were used at the start of REH’s career and words which were used at the end, indicating a change in the preference for a particular type of word over time were identified as being significant and analysed.
+To analyse the data, the words were identified which are more skewed towards the start or end of the dataset. This revealed the broad changes in the words used by Howard over time. Synonyms were identified and grouped together. Groups of synonyms which had both words that were used at the start of Howard’s career and words which were used at the end, indicating a change in the preference for a particular type of word over time were identified as being significant and analysed.
 
-A brief review of the most commonly used adjectives in REH’s stories allows for analysis of REH’s choice of words at a basic level. 
+A brief review of the most commonly used adjectives in Howard’s stories allows for analysis of Howard’s choice of words at a basic level. 
 Among the most common adjectives are, of course, common adjectives which any author would use. Adjectives like big, small etc.
 
 |**Word**	|**Frequency**|
@@ -62,9 +62,9 @@ Among the most common adjectives are, of course, common adjectives which any aut
 |	hard	|	576
 
 
-Looking at the lesser used but still common adjectives, aspects of REH’s style become identifiable.
+Looking at the lesser used but still common adjectives, aspects of Howard’s style become identifiable.
 Among the most commonly used adjectives are the colours Black, Red, and White. These colours are used as adjectives in the majority of stories and are often featured in the story titles.
-In addition, other highly provocative adjectives are identifiable as characteristic of REH’s writing style, such as:
+In addition, other highly provocative adjectives are identifiable as characteristic of Howard’s writing style, such as:
 * Dark
 * Dead
 * Wild
@@ -74,11 +74,11 @@ In addition, other highly provocative adjectives are identifiable as characteris
 
 
 Calculating a word’s usage longitudinally to identify changes in word preference
-Apart from the simply frequency words in the texts, how REH’s preference for particular words changed over time is of interest.
+Apart from the simply frequency words in the texts, how Howard’s preference for particular words changed over time is of interest.
 
 To identify words, whose usage increased or decreased over time, a weighted score for each adjective was created to identify words, the usage of which, was skewed towards the beginning or end of Howard's career.
 
-Words with either a large negative or large positive weighted scores are words that REH favoured more at either the start or end of his career respectively.
+Words with either a large negative or large positive weighted scores are words that Howard favoured more at either the start or end of his career respectively.
 Using the word remarkable as an example, the weighted score is 356.5, indicating that the word was used more frequently at the end of Howard's career.
 
 A score is close to zero indicates that the adjective was either not used frequently or was used consistently through Howard's career. It indicates a lack of change in preference by the author and is of little interest for the purpose of analysis.
@@ -94,7 +94,7 @@ The word *awful* was notably favoured by Howard later in his career, although he
 
 
 Looking at relative frequency, *awful* was used frequently in westerns and boxing stories. 
-REH often used this word between 4 and 8 times in a single story, and after 1932 REH used *awful* in almost every story. In addition, REH used *awful* to describe a wide range of nouns, often abstract nouns.
+Howard often used this word between 4 and 8 times in a single story, and after 1932 Howard used *awful* in almost every story. In addition, Howard used *awful* to describe a wide range of nouns, often abstract nouns.
 
 > "What awful perils lurk beyond that door I cannot even guess" - Hour of the Dragon, 1936
  
@@ -115,15 +115,15 @@ Grand|	-25|	Wonderful	|25
 			
 
 
-The word appall (the stem of the word appalling) is also heavily skewed towards the later part of REH’s work and REH began using the word at a similar point as *awful*.
+The word appall (the stem of the word appalling) is also heavily skewed towards the later part of Howard’s work and Howard began using the word at a similar point as *awful*.
 
 ![ADJ_appal_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/bc2194fb-3e70-432b-b4b8-eb2caf107042)
 
 
-Synonyms for *awful* which were favoured early in REH’s career were identified. These words were terrible and terrific. 
+Synonyms for *awful* which were favoured early in Howard’s career were identified. These words were terrible and terrific. 
 
 ### Terrible and terrific
-Terrible and terrific were used throughout REH’s entire career, but the relative frequency of these words in each story indicates they was more frequently used within stories earlier in REH’s career. Effectively, the word was used consistently, but more frequently early in REH’s career.
+Terrible and terrific were used throughout Howard’s entire career, but the relative frequency of these words in each story indicates they was more frequently used within stories earlier in Howard’s career. Effectively, the word was used consistently, but more frequently early in Howard’s career.
 
 ![ADJ_terrible_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a1648f89-72ef-43e4-8f60-af4227599875)
 ![ADJ_terrific_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/a3fe5336-779f-4e0a-b054-f28aca70efd2)
@@ -134,7 +134,7 @@ Notably, the words *awful*, terrible, and terrific, all imply a negative connota
 
 
 ### Pale and Livid
-Pale and livid were used throughout REH's career but identified as being skewed towards the end of REH's career and used in western, boxing, and fantasy stories.
+Pale and livid were used throughout Howard's career but identified as being skewed towards the end of Howard's career and used in western, boxing, and fantasy stories.
 
 ![ADJ_pale_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/64977f0a-769d-4093-9652-4b9d52eab22d)
 ![ADJ_livid_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/6b2d4f11-c02c-496e-8ba9-38e49281557b)
@@ -146,7 +146,7 @@ The hyphenated adjective white-faced was used infrequently, but more common earl
 
 ### Supple
  
-REH began to use the word supple frequently later in his career. Supple was often used to describe women and men in fantasy stories.
+Howard began to use the word supple frequently later in his career. Supple was often used to describe women and men in fantasy stories.
 
 ![ADJ_supple_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/ed0f25da-175c-451d-85b5-7ec982a3a14f)
 
@@ -164,7 +164,7 @@ Looking at synonyms, lithe, slender, and limber were all skewed towards earlier,
 
 ### Dynamic
 Dynamic, a word frequently used to describe physical prowess, was more frequently used at the beginning of Howard's career, but usage diminished over time.
-Mighty is a similar adjective, although a bit more specific, was also used early in REH’s career.
+Mighty is a similar adjective, although a bit more specific, was also used early in Howard’s career.
 
 ![ADJ_dynamic_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/19bd86c7-8e6e-4af2-b2d8-faa4ddf83629)
 
@@ -187,7 +187,7 @@ Analysing the synonyms of mighty indicates that muscular, powerful or brawny, be
 
 
 ## Zoomorphism
-REH often compares humans to animals, a technique called zoomorphism.
+Howard often compares humans to animals, a technique called zoomorphism.
 The hero of the story is often compared to a panther or tiger, villains are often wolfish, ape-like, or hawk-like, and heavyweight men are bulls.
 >“They were wolves, but he was a tiger.” - Beyond the Black River, 1935
 
@@ -204,7 +204,7 @@ Ape-like was also used frequently between 1928 and 1930 but then abandoned until
 
 
 ## Colours
-Another of REH’s favourite descriptive techniques is the use of vivid colours.
+Another of Howard’s favourite descriptive techniques is the use of vivid colours.
 > “A shuddering, white-faced dawn crept over the black hills to shiver above the red shambles that had been the village of Bogonda.” - Wings in the Night, 1933
 
 *Black* was one of the most common adjectives used in Howard's stories.
@@ -249,7 +249,7 @@ Early verbs
 The use of fling changed drastically over time. Not only was the word used in more stories early in Howard’s career but also used more frequently within those stories.
 
 ### Fling
-Examining synonyms of fling shows a variety of other verbs such as toss, whirl, and pass became preferred later in REH’s career.
+Examining synonyms of fling shows a variety of other verbs such as toss, whirl, and pass became preferred later in Howard’s career.
 
 ![VERB_fling_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/3049a68a-7e11-4e69-8635-c199892525d3)
 
@@ -281,7 +281,7 @@ Examining synonyms of fling shows a variety of other verbs such as toss, whirl, 
 
 
 ### Slug (Slugging)
-Verbs describing boxing or fisticuffs were common in the late 1920s and early 1930s in REH’s work. These words were preferred mainly in short stories about boxing, which were popular in pulp magazines at the time.
+Verbs describing boxing or fisticuffs were common in the late 1920s and early 1930s in Howard’s work. These words were preferred mainly in short stories about boxing, which were popular in pulp magazines at the time.
 The verbs slug, punch and smash are notable examples.
 
 ![VERB_slug_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/194f38d4-7692-4967-90ce-e9714623cf28)
@@ -330,14 +330,14 @@ Gaze was used more frequently in 1920’s but the proportional usage remained ev
 
 
 ## Other verbs
-Many verbs were favoured later or early in REH’s but no identifiable shifts in preference for these verbs was identified in the related synonyms.
+Many verbs were favoured later or early in Howard’s but no identifiable shifts in preference for these verbs was identified in the related synonyms.
 
 ### Stumble
 ![VERB_stumble_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/f6f97c07-9bf5-4a2b-920a-f987e217aceb)
 
 
 ### Shriek
-Words like shriek, howl, yell, and scream were preferred later in REH’s career. It is unclear why this shift occurred, but it may relate to a change in the genre, in which REH was writing.
+Words like shriek, howl, yell, and scream were preferred later in Howard’s career. It is unclear why this shift occurred, but it may relate to a change in the genre, in which Howard was writing.
 
 ![VERB_shriek_frequency_percentage](https://github.com/Connork94/Robert-E-Howard-NLP-analysis/assets/38993475/68a26a08-9335-4e4d-b5e4-86b616645255)
 
