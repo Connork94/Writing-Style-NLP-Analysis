@@ -73,7 +73,6 @@ In addition, other highly provocative adjectives are identifiable as characteris
 * Grim
 
 
-Calculating a word’s usage longitudinally to identify changes in word preference
 Apart from the simply frequency words in the texts, how Howard’s preference for particular words changed over time is of interest.
 
 To identify words, whose usage increased or decreased over time, a weighted score for each adjective was created to identify words, the usage of which, was skewed towards the beginning or end of Howard's career.
